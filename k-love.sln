@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k-love", "k-love\k-love.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{00286D3F-153C-4DED-AED1-573AAEE9024B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTests", "CommonTests\CommonTests.csproj", "{939822F7-3FCC-4355-8FCA-3E23DBA18798}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +19,5 @@ Global
 		{00286D3F-153C-4DED-AED1-573AAEE9024B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00286D3F-153C-4DED-AED1-573AAEE9024B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00286D3F-153C-4DED-AED1-573AAEE9024B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{939822F7-3FCC-4355-8FCA-3E23DBA18798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{939822F7-3FCC-4355-8FCA-3E23DBA18798}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{939822F7-3FCC-4355-8FCA-3E23DBA18798}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{939822F7-3FCC-4355-8FCA-3E23DBA18798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

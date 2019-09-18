@@ -15,9 +15,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.2" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Views\Employee\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="KLove.db" />
   </ItemGroup>
 </Project>

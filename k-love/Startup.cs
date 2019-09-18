@@ -33,10 +33,12 @@ namespace k_love
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            var sqlConnectionString = Configuration.GetConnectionString("DefaultConnection");
+            //var sqlConnectionString = Configuration.GetConnectionString("DefaultConnection");
 
-            services.AddDbContext<LoveContext>(options => options.UseNpgsql(sqlConnectionString));
+            //services.AddDbContext<LoveContext>(options => options.UseNpgsql(KLoveContext));
 
+            services.AddDbContext<LoveContext>(options =>
+                options.UseSqlite(Configuration.GetConnectionString("KLoveContext")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

@@ -10,8 +10,8 @@ using k_love.Models;
 namespace k_love.Migrations
 {
     [DbContext(typeof(LoveContext))]
-    [Migration("20190916020219_LocationMigration")]
-    partial class LocationMigration
+    [Migration("20190918071027_initialMigration")]
+    partial class initialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
